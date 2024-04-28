@@ -25,7 +25,7 @@ To get both frontend and backend up and running with Docker, follow these steps:
     cd <repository_root>
     ```
 2. **Clone the student-csv-frontend Repository**
-   student-csv-frontend (Frontend): [student-csv-frontend](https://github.com/uttamjareda/student-csv-frontend)
+   (Frontend: [student-csv-frontend](https://github.com/uttamjareda/student-csv-frontend))
     ```bash
     git clone <repository_url>
     cd <repository_root>
