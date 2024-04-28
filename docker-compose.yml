@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  backend:
+    build:
+      context: ./studentapi
+      dockerfile: Dockerfile
+    volumes:
+      - ./studentapi:/usr/src/app
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=1  # Set to 0 in production
+
+  frontend:
+    build:
+      context: ./student-csv-frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
