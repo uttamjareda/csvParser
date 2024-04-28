@@ -20,13 +20,18 @@ To get both frontend and backend up and running with Docker, follow these steps:
 ### Running the Application
 
 1. **Clone the Repository**
-
+    ```bash
+    git clone <repository_url>
+    cd <repository_root>
+    ```
+2. **Clone the student-csv-frontend Repository**
+   student-csv-frontend (Frontend): [student-csv-frontend](https://github.com/uttamjareda/student-csv-frontend)
     ```bash
     git clone <repository_url>
     cd <repository_root>
     ```
 
-2. **Build and Run with Docker Compose**
+4. **Build and Run with Docker Compose**
 
     In the root directory (where `docker-compose.yml` is located), run:
 
